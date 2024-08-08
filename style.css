@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background: url("./assets/images/background-pattern-desktop.svg");
-  overflow: hidden;
+  overflow: auto;
   font-family: "Work Sans", sans-serif;
 }
 .back-box {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 500px;
   top: 300px;
