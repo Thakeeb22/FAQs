@@ -73,11 +73,17 @@ h4:hover {
   color: hsl(228, 45%, 44%);
 }
 @media (max-width: 1000px) {
+  body{
+    overflow: auto;
+  }
   .container {
     width: 80%;
   }
 }
 @media (max-width: 800px) {
+  body{
+    overflow: auto;
+  }
   .container {
     width: 70%;
   }
@@ -96,6 +102,7 @@ h4:hover {
 @media (max-width: 375px) {
   body {
     background: url("./assets/images/background-pattern-mobile.svg");
+    overflow: auto;
   }
   .container {
     margin: 35% auto;
